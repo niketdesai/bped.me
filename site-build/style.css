@@ -1,0 +1,37 @@
+/* A fresh plate of CSS by Niket Desai
+
+
+
+
+*/
+
+body {
+	font-family: 'Montserrat', Helvetica, Sans-serif;
+	background-color: #f9f9f9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', Helvetica, Sans-serif;
+	
+}
+
+
+.float-left {
+	float: left;
+	margin: 0;
+}
+
+.button {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.b-blue {
+	background-color:  blue;
+}
+
+.b-yellow {
+	background-color: yellow;
+}

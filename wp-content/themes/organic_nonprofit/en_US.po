@@ -1,0 +1,826 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Non-Profit Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-25 00:26-0500\n"
+"PO-Revision-Date: 2011-10-25 00:26-0500\n"
+"Last-Translator: Jonathan Kight <dark225@aol.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\Users\\JON_LAPTOP\\Desktop\\Working Folder\\Non Profit Theme\\Updated Source\\organic_nonprofit\n"
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/404.php:9
+msgid "Not Found, Error 404"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/404.php:10
+msgid "The page you are looking for no longer exists."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/archive.php:21
+#: Source\organic_nonprofit/index.php:14
+#: Source\organic_nonprofit/page_blog.php:25
+#: Source\organic_nonprofit/search.php:14
+msgid "Posted by"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/archive.php:21
+#: Source\organic_nonprofit/index.php:14
+#: Source\organic_nonprofit/page_blog.php:25
+#: Source\organic_nonprofit/search.php:14
+msgid "on"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/archive.php:21
+#: Source\organic_nonprofit/page_blog.php:25
+#: Source\organic_nonprofit/search.php:14
+msgid "F j, Y"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/archive.php:21
+#: Source\organic_nonprofit/index.php:14
+#: Source\organic_nonprofit/page_blog.php:25
+#: Source\organic_nonprofit/search.php:14
+msgid "Leave a Comment"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/archive.php:21
+#: Source\organic_nonprofit/index.php:14
+#: Source\organic_nonprofit/page_blog.php:25
+#: Source\organic_nonprofit/search.php:14
+msgid "1 Comment"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/archive.php:21
+#: Source\organic_nonprofit/index.php:14
+#: Source\organic_nonprofit/page_blog.php:25
+#: Source\organic_nonprofit/search.php:14
+msgid "% Comments"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/archive.php:21
+#: Source\organic_nonprofit/index.php:14
+#: Source\organic_nonprofit/page.php:15
+#: Source\organic_nonprofit/page_blog.php:25
+#: Source\organic_nonprofit/page_full.php:21
+#: Source\organic_nonprofit/search.php:14
+msgid "(Edit)"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/archive.php:27
+#: Source\organic_nonprofit/index.php:26
+#: Source\organic_nonprofit/page_blog.php:31
+#: Source\organic_nonprofit/search.php:20
+msgid "Category:"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/archive.php:27
+#: Source\organic_nonprofit/index.php:26
+#: Source\organic_nonprofit/page_blog.php:31
+#: Source\organic_nonprofit/search.php:20
+msgid "Tags:"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/archive.php:31
+#: Source\organic_nonprofit/index.php:36
+#: Source\organic_nonprofit/page.php:19
+#: Source\organic_nonprofit/page_full.php:25
+#: Source\organic_nonprofit/search.php:24
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/author.php:21
+msgid "Website:"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/author.php:23
+msgid "Profile:"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/author.php:25
+msgid "Posts by"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/author.php:35
+msgid "No posts by this author."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/comments.php:10
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/comments.php:13
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/comments.php:22
+msgid "Comments"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/comments.php:23
+msgid "No Responses"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/comments.php:23
+msgid "One Response"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/comments.php:23
+msgid "% Responses"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/comments.php:23
+msgid "to"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/comments.php:33
+msgid "Trackbacks"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/comments.php:34
+msgid "Check out what others are saying..."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/comments.php:47
+msgid "Comments are closed."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/comments.php:57
+msgid "Leave A Comment"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/comments.php:64
+msgid "You must be"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/comments.php:64
+msgid "logged in"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/comments.php:64
+msgid "to post a comment."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/comments.php:71
+msgid "Logged in as"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/comments.php:71
+msgid "Log out"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/comments.php:76
+msgid "Name"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/comments.php:76
+#: Source\organic_nonprofit/comments.php:79
+msgid "(required)"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/comments.php:79
+msgid "Mail (will not be published)"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/comments.php:82
+msgid "Website"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/comments.php:90
+msgid "Submit Comment"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/footer.php:43
+msgid "Copyright"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/footer.php:43
+msgid "Y"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/footer.php:43
+msgid "All Rights Reserved"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/footer.php:47
+msgid "NonProfit Theme v3"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/footer.php:47
+msgid "by"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/footer.php:47
+msgid "Organic Themes"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/footer.php:47
+msgid "WordPress Hosting"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/footer.php:47
+#: Source\organic_nonprofit/header.php:14
+msgid "RSS Feed"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/functions.php:41
+#: Source\organic_nonprofit/functions.php:57
+msgid "Theme Options"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/functions.php:58
+msgid "This theme requires the Options Framework plugin installed and activated to manage your theme options."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/functions.php:58
+msgid "Install Now"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/functions.php:137
+msgid "Paste Video Embed Code"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/functions.php:138
+msgid "Enter Vimeo, YouTube or other embed code to display a featured video. (640px by 360px Featured Slider)"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/header.php:15
+msgid "Atom Feed"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/home.php:28
+#: Source\organic_nonprofit/sidebar.php:8
+msgid "Widget Area"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/home.php:29
+#: Source\organic_nonprofit/sidebar.php:9
+msgid "This section is widgetized. To add widgets here, go to the"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/home.php:29
+#: Source\organic_nonprofit/sidebar.php:9
+msgid "Widgets"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/home.php:29
+#: Source\organic_nonprofit/sidebar.php:9
+msgid "panel in your WordPress admin, and add the widgets you would like to the"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/home.php:29
+msgid "Homepage Widget"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/home.php:30
+#: Source\organic_nonprofit/sidebar.php:10
+msgid "*This message will be overwritten after widgets have been added"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/home.php:48
+#: Source\organic_nonprofit/home.php:59
+#: Source\organic_nonprofit/home.php:70
+#: Source\organic_nonprofit/home.php:117
+msgid "Learn More"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/home.php:86
+#: Source\organic_nonprofit/index.php:17
+#: Source\organic_nonprofit/page.php:15
+#: Source\organic_nonprofit/page_blog.php:28
+msgid "Read More"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/index.php:14
+msgid "l, F j, Y"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:32
+msgid "One"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:32
+msgid "Two"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:32
+msgid "Three"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:32
+msgid "Four"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:32
+msgid "Five"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:35
+msgid "French Toast"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:35
+msgid "Pancake"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:35
+msgid "Omelette"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:35
+msgid "Crepe"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:35
+msgid "Waffle"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:44
+msgid "1 Second"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:44
+msgid "2 Seconds"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:44
+msgid "4 Seconds"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:44
+msgid "6 Seconds"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:44
+msgid "8 Seconds"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:44
+msgid "10 Seconds"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:44
+msgid "12 Seconds"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:44
+msgid "14 Seconds"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:44
+msgid "16 Seconds"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:44
+msgid "18 Seconds"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:44
+msgid "20 Seconds"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:44
+msgid "30 Seconds"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:44
+msgid "1 Minute"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:44
+msgid "Hold Frame"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:47
+#: Source\organic_nonprofit/options.php:138
+#: Source\organic_nonprofit/options.php:145
+msgid "Yes"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:47
+msgid "No"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:58
+msgid "All Categories"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:63
+#: Source\organic_nonprofit/options.php:93
+#: Source\organic_nonprofit/options.php:100
+#: Source\organic_nonprofit/options.php:107
+#: Source\organic_nonprofit/options.php:114
+msgid "Select a page:"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:73
+msgid "Homepage Settings"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:76
+msgid "Featured Slider Category"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:77
+msgid "Choose the category you wish to display in the homepage slider."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:79
+#: Source\organic_nonprofit/options.php:121
+#: Source\organic_nonprofit/options.php:155
+msgid "Select a category:"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:83
+msgid "Featured Slider Transition Interval"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:84
+msgid "Choose the transition time for the homepage slider."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:86
+#: Source\organic_nonprofit/options.php:128
+msgid "Select a transition time:"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:90
+msgid "Select Featured Page Left"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:91
+msgid "Choose the page you wish to display in the left section, beneath the slider."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:97
+msgid "Select Featured Page Middle"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:98
+msgid "Choose the page you wish to display in the middle section, beneath the slider."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:104
+msgid "Select Featured Page Right"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:105
+msgid "Choose the page you wish to display in the right section, beneath the slider."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:111
+msgid "Select Featured Bottom Page"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:112
+msgid "Choose the page you wish to display in the bottom left section, next to the featured tabber."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:118
+msgid "Homepage Tabbed Section"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:119
+msgid "Choose the category you wish to display in the homepage tabbed section."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:125
+msgid "Tabbed Section Transition Interval"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:126
+msgid "Choose the transition time for the homepage tabbed section."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:132
+msgid "Display Settings"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:135
+msgid "Display The Homepage Middle Sections?"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:136
+msgid "Select whether or not you would like to display the featured pages in the middle section of the homepage."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:142
+msgid "Display The Homepage Bottom Sections?"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:143
+msgid "Select whether or not you would like to display the bottom page and featured tabber on the homepage."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:149
+msgid "Page Templates"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:152
+msgid "Blog Template Category"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:153
+msgid "Choose the category you wish to display on the blog page template."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:159
+msgid "Blog Posts To Display"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/options.php:160
+msgid "Enter the number of posts you would like to display on the blog page template."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/page_archive.php:19
+msgid "By Page:"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/page_archive.php:24
+msgid "By Month:"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/page_archive.php:29
+msgid "By Category:"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/page_archive.php:38
+msgid "By Post"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/page_blog.php:41
+msgid "Page not Found"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/page_blog.php:42
+msgid "We're sorry, but the page you're looking for isn't here."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/page_blog.php:43
+msgid "Try searching for the page you are looking for or using the navigation in the header or sidebar"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/page_full.php:21
+msgid "Read more"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Non Profit Theme\Updated
+#: Source\organic_nonprofit/sidebar.php:9
+msgid "Right Sidebar"
+msgstr ""
+
