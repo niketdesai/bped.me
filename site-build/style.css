@@ -11,9 +11,28 @@ body {
 	background-color: black;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat', Helvetica, Sans-serif;	
+h1, h2, h3, h4, h5, h6, p {
+	font-family: 'Montserrat', Helvetica, Sans-serif;
+	font-weight: normal;
 }
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+h4 {
+	font-size: 12px;
+}
+
+
 
 #page-container {
 	width: 1200px;
@@ -29,6 +48,30 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0px;
 }
 
+.blue {
+	color: #044689;
+}
+
+.yellow {
+	color: #ffc80d;
+}
+
+.grey {
+	color: #949494;
+}
+
+.b-blue {
+	background-color: #044689;
+}
+
+.b-yellow {
+	background-color: #ffc80d;
+}
+
+.b-grey {
+	background-color: #949494;
+}
+
 /* @end */
 
 
@@ -39,17 +82,6 @@ h1, h2, h3, h4, h5, h6 {
 	-webkit-border-radius: 10px;
 	-o-border-radius: 10px;
 	border-radius: 10px;
-}
-
-.b-blue {
-	background-color: #044689;
-}
-
-.b-yellow {
-	background-color: #ffc80d;
-}
-.b-grey {
-	background-color: #949494;
 }
 
 .cta {
@@ -102,18 +134,22 @@ section #events, #carousel {
 
 /* @end */
 
+/* @group SECOND CONTENT */
+#secondary-content {
+	padding: 40px 0;
+}
 
+.buckets {
+	width: 250px;
+	height: 400px;
+}
 
+.buckets header h2 {
+	font-size: 14px;
+	text-align: center;
+}
 
-
-
-
-
-
-
-/*
-	Slideshow
-*/
+/* @end */
 
 #slides {
 }
