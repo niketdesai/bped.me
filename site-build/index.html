@@ -9,25 +9,81 @@
 </head>
 
 <body>
+<div id="page-container">
 	<header>
 		<div id="logomast" class="float-left">
-			<img src="img/logo.png" alt="BPEDME LOGO" />
+			<img src="images/bpe-logo.png" alt="BPEDME LOGO" />
 		</div>
 		<nav>
 			<ul>
-				<li>About</li>
-				<li>Research</li>
-				<li>Blog</li>
-				<li>Support/Join Us</li>
+				<li>ABOUT</li>
+				<li>RESEARCH</li>
+				<li>BLOG</li>
+				<li class="button b-yellow cta">support/ join</li>
 			</ul>
 		</nav>
 	</header>
-	<div>
+	<div id="main-content">
 		<section id="events">
 		</section>
 		<section id="carousel">
-			<
+			<div id="slides">
+				<div class="slides_container">
+					<div class="slide">
+						<a href="#" title="wtv" target="_blank"><img src="http://omhseaglesnest.wikispaces.com/file/view/political-pictures-protesters-courage-hopeless.jpg" width="640" height="360" alt="Slide 1"></a>
+						<div class="caption" style="bottom:0">
+							<p>Oh WHat?!!#</p>
+						</div>
+					</div>
+					<div class="slide">
+						<a href="http://www.flickr.com/photos/stephangeyer/3020487807/" title="Taxi | Flickr - Photo Sharing!" target="_blank"><img src="img/slide-2.jpg" width="640" height="360" alt="Slide 2"></a>
+						<div class="caption">
+							<p>Taxi</p>
+						</div>
+					</div>
+				</div>
+			</div>					
 		</section>
 	</div>
+</div>
 </body>
+	<!-- JAVASCRIPT INCLUDE -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="js/slides.min.jquery.js"></script>
+	<script>
+			$(function(){
+				$('#slides').slides({
+					preload: true,
+					preloadImage: 'img/loading.gif',
+					play: 5000,
+					pause: 2500,
+					hoverPause: true,
+					animationStart: function(current){
+						$('.caption').animate({
+							bottom:-35
+						},100);
+						if (window.console && console.log) {
+							// example return of current slide number
+							console.log('animationStart on slide: ', current);
+						};
+					},
+					animationComplete: function(current){
+						$('.caption').animate({
+							bottom:0
+						},200);
+						if (window.console && console.log) {
+							// example return of current slide number
+							console.log('animationComplete on slide: ', current);
+						};
+					},
+					slidesLoaded: function() {
+						$('.caption').animate({
+							bottom:0
+						},200);
+					}
+				});
+			});
+		</script>
+	
 </html>
+

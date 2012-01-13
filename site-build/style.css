@@ -5,22 +5,35 @@
 
 */
 
+/* @group BODY/TEXT */
 body {
 	font-family: 'Montserrat', Helvetica, Sans-serif;
-	background-color: #f9f9f9;
+	background-color: black;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat', Helvetica, Sans-serif;
-	
+	font-family: 'Montserrat', Helvetica, Sans-serif;	
 }
 
+#page-container {
+	width: 1200px;
+	margin:0 auto;
+	background-color: #f9f9f9;
+}
+/* @end */
+
+/* @group GLOBAL */
 
 .float-left {
 	float: left;
-	margin: 0;
+	margin: 0px;
 }
 
+/* @end */
+
+
+
+/* @group BUTTONS */
 .button {
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -29,9 +42,139 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .b-blue {
-	background-color:  blue;
+	background-color: #044689;
 }
 
 .b-yellow {
-	background-color: yellow;
+	background-color: #ffc80d;
+}
+.b-grey {
+	background-color: #949494;
+}
+
+.cta {
+	color: white;
+}
+/* @end */
+
+
+
+/* @group HEADER */
+
+header {
+	height: 100px;
+}
+
+#logomast {
+	margin-left: 130px;
+}
+
+nav ul {
+	float: right;
+	margin: 30px 50px 0 0;
+}
+
+nav ul li {
+	float: left;
+	margin-left: 40px;
+	color: #044689;
+	font-size: 14px;
+}
+
+/* @end */
+
+/* @group MAIN CONTENT */
+#main-content {
+	width: 100%;
+	height: 402px;
+	background-image: url('images/berk-bg.jpg');
+	background-repeat: no-repeat;	
+}
+
+section #events, #carousel {
+	height: inherit;
+}
+
+#carousel {
+	float: right;
+	margin: 18px 120px 0 0
+}
+
+/* @end */
+
+
+
+
+
+
+
+
+
+
+/*
+	Slideshow
+*/
+
+#slides {
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:640px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container div.slide {
+	width:640px;
+	height:360px;
+	display:block;
+}
+
+
+/*
+	Next/prev buttons
+*/
+
+#slides .next,#slides .prev {
+	position:absolute;
+	top:107px;
+	left:-39px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+}
+
+#slides .next {
+	left:585px;
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+	margin:26px auto 0;
+	width:100px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1p	text-decoration:underline;
 }
