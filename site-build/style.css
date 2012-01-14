@@ -1,17 +1,19 @@
-/* A fresh plate of CSS by Niket Desai
-
-
-
-
+/*	A fresh plate of CSS by Niket Desai
+	cooked up for BPEDME & your viewing
+	displeasure.
+	
+	Q: Do you use overflow:hidden; to 
+	handle your clear fixing?
 */
 
 /* @group BODY/TEXT */
 body {
 	font-family: 'Montserrat', Helvetica, Sans-serif;
-	background-color: black;
+	margin: 0;
+	padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6 {
 	font-family: 'Montserrat', Helvetica, Sans-serif;
 	font-weight: normal;
 }
@@ -32,16 +34,25 @@ h4 {
 	font-size: 12px;
 }
 
+p {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
 
-
-#page-container {
+.wrapper {
+	padding: 0;
+}
+.container {
 	width: 1200px;
 	margin:0 auto;
-	background-color: #f9f9f9;
+	padding: 0;
+	overflow: hidden;
 }
 /* @end */
 
 /* @group GLOBAL */
+a {
+	text-decoration: none;
+}
 
 .float-left {
 	float: left;
@@ -72,20 +83,31 @@ h4 {
 	background-color: #949494;
 }
 
+.divider {
+	width: 100%;
+	height: 1px;
+	background-color: #b1b1b2;
+	padding: 0;
+}
+
 /* @end */
 
 
 
 /* @group BUTTONS */
 .button {
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	-o-border-radius: 10px;
-	border-radius: 10px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: -30px;
 }
 
 .cta {
 	color: white;
+	text-align:center;
 }
 /* @end */
 
@@ -101,16 +123,24 @@ header {
 	margin-left: 130px;
 }
 
-nav ul {
+nav.header ul {
 	float: right;
 	margin: 30px 50px 0 0;
 }
 
-nav ul li {
+nav.header ul li {
 	float: left;
 	margin-left: 40px;
 	color: #044689;
 	font-size: 14px;
+	
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+nav.header ul li:hover {
+	border-bottom: 2px solid #044689;
 }
 
 /* @end */
@@ -136,17 +166,86 @@ section #events, #carousel {
 
 /* @group SECOND CONTENT */
 #secondary-content {
-	padding: 40px 0;
+	padding: 40px 120px;
+	overflow: hidden;
 }
 
 .buckets {
-	width: 250px;
-	height: 400px;
+	width: 280px;
+	float: left;
+	padding: 0 20px;
 }
 
-.buckets header h2 {
-	font-size: 14px;
+.buckets h2 {
 	text-align: center;
+}
+
+.buckets-pic {
+	background-color: black;
+	width: 280px;
+	height: 150px;
+}
+
+.buckets-text {
+	width: 100%;
+}
+
+.buckets p {
+	font-size: 12px;
+	color: #777878;
+	line-height: 20px;
+}
+
+.buckets-cta {
+	float: right;
+}
+
+/* @end */
+
+/* @group FOOTER */
+
+#share {
+	overflow: hidden;
+	padding: 40px 0;
+}
+#share-text {
+	width: 300px;
+	padding: 0px 20px;
+}
+#share-text h3 {
+	color: #767676;
+	line-height: 25px;
+}
+
+#share-box {
+	padding: 0 155px;
+}
+
+#footer-divider {
+	width: 960px;
+	height: 1px;
+	margin: 30px auto;
+	background-color: #d5d5d5;
+}
+
+nav.footer {
+	overflow: hidden;
+}
+nav.footer ul {
+	float: left;
+	margin: 30px 0px 30px 85px;
+}
+
+nav.footer ul li {
+	color: #767676;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 11px;
+	float: left;
+	margin-left: 20px;
+}
+
+#footer-text {
+	margin-left: 285px;
 }
 
 /* @end */
