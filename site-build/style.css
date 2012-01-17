@@ -50,7 +50,7 @@ p {
 /* @end */
 
 /* @group GLOBAL */
-a {
+nav a, .buckets a {
 	text-decoration: none;
 }
 
@@ -126,12 +126,12 @@ header {
 nav.header ul {
 	float: right;
 	margin: 30px 50px 0 0;
+	width: 485px;;
 }
 
 nav.header ul li {
 	float: left;
 	margin-left: 40px;
-	color: #044689;
 	font-size: 14px;
 	
 	-webkit-transition: all 0.3s ease-in-out 0s;
@@ -139,17 +139,29 @@ nav.header ul li {
 	transition: all 0.3s ease-in-out 0s;
 }
 
-nav.header ul li:hover {
+nav.header ul li:hover, .cta:hover {
 	border-bottom: 2px solid #044689;
 }
+
+nav.header ul li a {
+	color: #044689;
+}
+
+
+.not-here {
+	color: #e4e4e4;
+	opacity: 1;
+}
+
+
 
 /* @end */
 
 /* @group MAIN CONTENT */
 #main-content {
 	width: 100%;
-	height: 402px;
-	background-image: url('images/berk-bg.jpg');
+	height: 400px;
+	background-image: url('images/BPEDME_windowgraphic_e0e0e0_v2.jpg');
 	background-repeat: no-repeat;	
 }
 
@@ -181,7 +193,6 @@ section #events, #carousel {
 }
 
 .buckets-pic {
-	background-color: black;
 	width: 280px;
 	height: 150px;
 }
@@ -202,6 +213,113 @@ section #events, #carousel {
 
 /* @end */
 
+/* @group ABOUT CONTENT */
+
+#about-content {
+	padding: 40px 120px;
+	overflow: hidden;
+}
+
+nav.about {
+	overflow: hidden;
+	width: 455px;
+	height: 50px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+nav.about ul li {
+	float: left;
+	margin-left: 40px;
+	color: #044689;
+	font-size: 14px;
+	
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+nav.about ul li:hover {
+	border-bottom: 2px solid #044689;
+}
+
+nav.about ul li a {
+	color: #044689;
+}
+
+h1.about-header {
+	color: #044689;
+	padding-top: 20px;
+}
+
+#mission-content p {
+	font-size: 14px;
+	color: #777878;
+	line-height: 26px;
+}
+
+.person {
+	overflow: hidden;
+	margin: auto;
+	padding-bottom: 20px;
+	
+}
+
+.person-pic {
+	width: 150px;
+	height: 150px;
+	background-color: black;
+	background-image: ;
+	float: left;
+}
+
+.person-prof {
+	width: 790px;
+	float: left;
+	padding: 0 0 0 20px;
+}
+
+.person-prof h3 {
+	margin-top: 5px;
+	color: #4b4b4b;
+}
+
+.person-bio {
+	
+}
+
+p.person-bio {
+	font-size: 14px;
+	color: #777878;
+	line-height: 25px;
+}
+/* @end */
+
+
+
+#research-content {
+	width: 960px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+#research-content h2 {
+	color: #044689 ;
+}
+
+#research-content h3 {
+	margin-top: 5px;
+	color: #4b4b4b;
+}
+
+#research-content p, #research-content ol, #research-content ul {
+	font-size: 14px;
+	color: #777878;
+	line-height: 26px;
+}
+
+
+
 /* @group FOOTER */
 
 #share {
@@ -218,7 +336,7 @@ section #events, #carousel {
 }
 
 #share-box {
-	padding: 0 155px;
+	margin-left: 175px;
 }
 
 #footer-divider {
@@ -249,6 +367,23 @@ nav.footer ul li {
 }
 
 /* @end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CURRENTLY NOT USING THIS SHIT */
 
 #slides {
 }
