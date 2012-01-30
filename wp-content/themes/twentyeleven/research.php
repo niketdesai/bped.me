@@ -1,53 +1,11 @@
-<DOCTYPE html>
-<head>
-	<meta charset="UTF-8">
-	<title>BPEMDE | Research</title>
-	<!-- DOING MS JOB FOR THEM -->
-	<!--[if lt IE 9]>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
-	<![endif]-->
-	<!-- CSS INCLUDE -->
-	<link rel="stylesheet" href="../style.css">
-	<!-- FONT INCLUDE -->
-	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-</head>
-<body>
-<div class="wrapper" style="background-color: #f9f9f9;" >
-<div class="container">
-	<!-- HEADER START -->
-	<header>
-		<div id="logomast" class="float-left">
-			<a href="http://bped.me"><img src="../images/bpe-logo.png" alt="BPEDME LOGO" /></a>
-		</div>
-		<nav class="header">
-			<ul>
-				<li><a href="/about">ABOUT</a></li>
-				<li><a href="#">RESEARCH</a></li>
-				<li class="not-here">BLOG</li>
-				<a href="mailto:mslh83@gmail.com?subject=Hi, tell me more about BPEDME">
-					<li class="button b-yellow cta" style="margin-top: -6px">contact us</li>
-				</a>
-			</ul>
-		</nav>
-	</header>
-	<!-- HEADER END -->
-</div>
-</div>
-<div class="divider"></div>
-<div class="wrapper wrapper-force" style="background-color: #e0e0e0;">
-<div class="container">
-	<!-- MAIN-CONTENT START -->
-	<div id="main-content">
-		<section id="events">
-		</section>
-		<section id="carousel">
-			<a href="/about"><img src="../images/landing_img.jpg" alt="about-us"></a>					
-		</section>
-	</div>
-	<!-- MAIN-CONTENT END -->
-</div>
-</div>
+<?php
+/*
+Template Name: Research
+
+*/
+?>
+<?php get_header(); ?>
+
 <div class="divider"></div>
 <div class="wrapper" style="background-color: #ffffff;">
 <div class="container">
@@ -111,84 +69,6 @@
 	<!-- SECONDARY-CONTENT END -->
 </div>
 </div>
-<div class="divider"></div>
-<div class="wrapper" style="background-color: #f2f2f2;">
-<div class="container">
-	<!-- FOOTER START -->
-	<div id="share">
-		<div id="logomast" class="float-left">
-			<img src="../images/bpe-logo.png" alt="BPEDME LOGO" />
-		</div>
-		<div id="share-text" class="float-left">
-			<h3>Share BPEDME with your friends, colleagues &amp; network professionals.</h3>
-		</div>
-		<div id="share-box" class="float-left">
-			<span  class='st_email_vcount' displayText='Email'></span>
-			<span  class='st_twitter_vcount' displayText='Tweet'></span>
-			<span  class='st_facebook_vcount' displayText='Facebook'></span>
-			<span  class='st_linkedin_vcount' displayText='LinkedIn'></span>
-			<span  class='st_plusone_vcount' ></span>
-		</div>
-	</div>
-	<div id="footer-divider"></div>
-	<div id="site-map">
-		<nav class="footer">
-			<ul>
-				<li><a href="/about/#mission">Mission</a></li>
-				<li><a href="/about/#founders">About Us</a></li>
-				<li><a href="#">Research</a></li>
-				<li class="not-here">Blog</li>
-				<li class="not-here">Support Us</li>
-				<li id="footer-text">
-					(c)2012 Berkeley Program on Entrepreneurship &amp; Democracy in the Middle East
-				</li>
-			</ul>
-		</nav>
-	</div>
-	<!-- FOOTER END -->
-</div>
-</div>
-</body>
-	<!-- JAVASCRIPT INCLUDE -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script>
-		$(document).ready(function() {
-		
-		// Function appends + prepends non-breaking spaces to
-		// all .button element text so it looks pretty.
-			$('.button').each(function(index) {
-				var currText = $(this).text();
-				$(this).html("&nbsp; &nbsp; " + currText +  " &nbsp; &nbsp;");
-			}); 
-		});
-	</script>
-	
-	<!-- SHARE BUTTONS JS -->	
-	<script type="text/javascript">var switchTo5x=true;</script>
-	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-	<script type="text/javascript">
-		stLight.options({
-			publisher:'2aba839c-79a2-48fa-a9a5-31eb930dcc33',
-			serviceBarColor:'#ffc80d',
-			shareButtonColor:'#044689',
-			footerColor: 'white',
-			mainWidgetColor: '#ffc80d'
-		});
-	</script>
-	
-	<!-- GOOGLE ANALYTICS -->
-	<script type="text/javascript">
-	
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-9468150-3']);
-	  _gaq.push(['_trackPageview']);
-	
-	  (function() {
-	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
-	
-	</script>
-</html>
 
+
+<?php get_footer(); ?>

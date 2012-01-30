@@ -1,7 +1,12 @@
 <DOCTYPE html>
 <head>
 	<meta charset="UTF-8">
-	<title>BPEMDE</title>
+	<title>BPEMDE | Home</title>
+	<!-- DOING MS JOB FOR THEM -->
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+	<![endif]-->
 	<!-- CSS INCLUDE -->
 	<link rel="stylesheet" href="style.css">
 	<!-- FONT INCLUDE -->
@@ -20,7 +25,9 @@
 				<li><a href="/about">ABOUT</a></li>
 				<li><a href="/research">RESEARCH</a></li>
 				<li class="not-here">BLOG</li>
-				<a href="mailto:mslh83@gmail.com?subject=Hi, tell me more about BPEDME"><li class="button b-yellow cta" style="margin-top: -6px">contact us</li></a>
+				<a href="mailto:mslh83@gmail.com?subject=Hi, tell me more about BPEDME">
+					<li class="button b-yellow cta" style="margin-top: -6px">contact us</li>
+				</a>
 			</ul>
 		</nav>
 	</header>
@@ -28,7 +35,7 @@
 </div>
 </div>
 <div class="divider"></div>
-<div class="wrapper" style="background-color: #e0e0e0;">
+<div class="wrapper wrapper-force" style="background-color: #e0e0e0;">
 <div class="container">
 	<!-- MAIN-CONTENT START -->
 	<div id="main-content">
@@ -42,7 +49,7 @@
 </div>
 </div>
 <div class="divider"></div>
-<div class="wrapper" style="background-color: #ffffff;">
+<div class="wrapper force-four" style="background-color: #ffffff;">
 <div class="container">
 	<!-- SECONDARY-CONTENT START -->
 	<div id="secondary-content">
@@ -74,7 +81,9 @@
 			<div class="buckets-text">
 			<p>Want to learn more about BPEDME or get on the line with one of the founders? Drop us an email here and we'll be sure to respond as quickly as possible.</p>
 			</div>
-			<a href="mailto:mslh83@gmail.com?subject=Hi, tell me more about BPEDME"><div class="buckets-cta button b-grey cta">contact us</div></a>
+			<a href="mailto:mslh83@gmail.com?subject=Hi, tell me more about BPEDME">
+				<div class="buckets-cta button b-grey cta">contact us</div>
+			</a>
 		</section>
 	</div>
 	<!-- SECONDARY-CONTENT END -->
@@ -120,50 +129,18 @@
 </body>
 	<!-- JAVASCRIPT INCLUDE -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script src="js/slides.min.jquery.js"></script>
 	<script>
-			$(function(){
-				$('#slides').slides({
-					preload: true,
-					preloadImage: 'img/loading.gif',
-					play: 5000,
-					pause: 2500,
-					hoverPause: true,
-					animationStart: function(current){
-						$('.caption').animate({
-							bottom:-35
-						},100);
-						if (window.console && console.log) {
-							// example return of current slide number
-							console.log('animationStart on slide: ', current);
-						};
-					},
-					animationComplete: function(current){
-						$('.caption').animate({
-							bottom:0
-						},200);
-						if (window.console && console.log) {
-							// example return of current slide number
-							console.log('animationComplete on slide: ', current);
-						};
-					},
-					slidesLoaded: function() {
-						$('.caption').animate({
-							bottom:0
-						},200);
-					}
-				});
-			});
-			
-			$(document).ready(function() {
-				// Function appends + prepends non-breaking spaces to
-				// all .button element text so it looks pretty.
-				$('.button').each(function(index) {
-					var currText = $(this).text();
-					$(this).html("&nbsp; &nbsp; " + currText +  " &nbsp; &nbsp;");
-				}); 
-			});
+		$(document).ready(function() {
+		
+		// Function appends + prepends non-breaking spaces to
+		// all .button element text so it looks pretty.
+			$('.button').each(function(index) {
+				var currText = $(this).text();
+				$(this).html("&nbsp; &nbsp; " + currText +  " &nbsp; &nbsp;");
+			}); 
+		});
 	</script>
+	
 	<!-- SHARE BUTTONS JS -->	
 	<script type="text/javascript">var switchTo5x=true;</script>
 	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
@@ -176,6 +153,7 @@
 			mainWidgetColor: '#ffc80d'
 		});
 	</script>
+	
 	<!-- GOOGLE ANALYTICS -->
 	<script type="text/javascript">
 	

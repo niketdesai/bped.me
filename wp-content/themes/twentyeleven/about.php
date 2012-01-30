@@ -1,53 +1,11 @@
-<DOCTYPE html>
-<head>
-	<meta charset="UTF-8">
-	<title>BPEMDE | About</title>
-	<!-- DOING MS JOB FOR THEM -->
-	<!--[if lt IE 9]>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
-	<![endif]-->
-	<!-- CSS INCLUDE -->
-	<link rel="stylesheet" href="../style.css">
-	<!-- FONT INCLUDE -->
-	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-</head>
-<body>
-<div class="wrapper" style="background-color: #f9f9f9;" >
-<div class="container">
-	<!-- HEADER START -->
-	<header>
-		<div id="logomast" class="float-left">
-			<a href="http://bped.me"><img src="../images/bpe-logo.png" alt="BPEDME LOGO" /></a>
-		</div>
-		<nav class="header">
-			<ul>
-				<li><a href="#">ABOUT</a></li>
-				<li><a href="/research">RESEARCH</a></li>
-				<li class="not-here">BLOG</li>
-				<a href="mailto:mslh83@gmail.com?subject=Hi, tell me more about BPEDME">
-					<li class="button b-yellow cta" style="margin-top: -6px">&nbsp;&nbsp; contact us &nbsp;&nbsp;</li>
-				</a>
-			</ul>
-		</nav>
-	</header>
-	<!-- HEADER END -->
-</div>
-</div>
-<div class="divider"></div>
-<div class="wrapper wrapper-force" style="background-color: #e0e0e0;">
-<div class="container">
-	<!-- MAIN-CONTENT START -->
-	<div id="main-content">
-		<section id="events">
-		</section>
-		<section id="carousel">
-			<img src="../images/landing_img.jpg" alt="about-us">					
-		</section>
-	</div>
-	<!-- MAIN-CONTENT END -->
-</div>
-</div>
+<?php
+/*
+Template Name: About-Us
+
+*/
+?>
+<?php get_header(); ?>
+
 <div class="divider"></div>
 <div class="wrapper" style="background-color: #ffffff;">
 <div class="container">
@@ -68,7 +26,7 @@
 	<div id="founders-content">
 		<div class="person">
 			<div class="person-pic">
-				<img src="../images/about_imgs/bpedme_about_000.jpg" alt="bpeface">
+				<img src="wp-content/themes/twentyeleven/images/about_imgs/bpedme_about_000.jpg" alt="bpeface">
 			</div>
 			<div class="person-prof">
 				<h3 class="person-name">Dariush Zahedi<br />Executive Director</h3>
@@ -77,7 +35,7 @@
 		</div>
 		<div class="person">
 			<div class="person-pic">
-				<img src="../images/about_imgs/bpedme_about_001.jpg" alt="bpeface">			
+				<img src="wp-content/themes/twentyeleven/images/about_imgs/bpedme_about_001.jpg" alt="bpeface">			
 			</div>
 			<div class="person-prof">
 				<h3 class="person-name">Ali Ezzatyar<br />Director</h3>
@@ -86,7 +44,7 @@
 		</div>
 		<div class="person">
 			<div class="person-pic">
-				<img src="../images/about_imgs/bpedme_about_002.jpg" alt="bpeface">
+				<img src="wp-content/themes/twentyeleven/images/about_imgs/bpedme_about_002.jpg" alt="bpeface">
 			</div>
 			<div class="person-prof">
 				<h3 class="person-name">Mike Heath<br />Assistant Director</h3>
@@ -98,7 +56,7 @@
 	<div id="advisors-content">
 		<div class="person">
 			<div class="person-pic">
-				<img src="../images/about_imgs/bpedme_about_003.jpg" alt="bpeface">
+				<img src="wp-content/themes/twentyeleven/images/about_imgs/bpedme_about_003.jpg" alt="bpeface">
 			</div>
 			<div class="person-prof">
 				<h3 class="person-name">Nezar AlSayyad<br />Chair &amp; Professor,  UC Berkeley</h3>
@@ -107,7 +65,7 @@
 		</div>
 		<div class="person">
 			<div class="person-pic">
-				<img src="../images/about_imgs/bpedme_about_004.jpg" alt="bpeface">
+				<img src="wp-content/themes/twentyeleven/images/about_imgs/bpedme_about_004.jpg" alt="bpeface">
 			</div>
 			<div class="person-prof">
 				<h3 class="person-name">Hossein Askari<br />Professor,  George Washington University</h3>
@@ -116,7 +74,7 @@
 		</div>
 		<div class="person">
 			<div class="person-pic">
-				<img src="../images/about_imgs/bpedme_about_005.jpg" alt="bpeface">
+				<img src="wp-content/themes/twentyeleven/images/about_imgs/bpedme_about_005.jpg" alt="bpeface">
 			</div>
 			<div class="person-prof">
 				<h3 class="person-name">Edwin M. Epstein<br />Former Dean &amp; Professor,  UC Berkeley</h3>
@@ -125,7 +83,7 @@
 		</div>
 		<div class="person">
 			<div class="person-pic">
-				<img src="../images/about_imgs/bpedme_about_006.jpg" alt="bpeface">
+				<img src="wp-content/themes/twentyelevens/images/about_imgs/bpedme_about_006.jpg" alt="bpeface">
 			</div>
 			<div class="person-prof">
 				<h3 class="person-name">M. Steven Fish<br />Political Scientist</h3>
@@ -134,7 +92,7 @@
 		</div>
 		<div class="person">
 			<div class="person-pic">
-				<img src="../images/about_imgs/bpedme_about_007.jpg" alt="bpeface">
+				<img src="wp-content/themes/twentyeleven/images/about_imgs/bpedme_about_007.jpg" alt="bpeface">
 			</div>
 			<div class="person-prof">
 				<h3 class="person-name">Susan Hoffman<br />Director, UC Berkeley's Osher Lifelong Learning Institute.</h3>
@@ -145,7 +103,7 @@
 		</div>
 		<div class="person">
 			<div class="person-pic">
-				<img src="../images/about_imgs/bpedme_about_kalim.jpg" alt="bpeface">
+				<img src="wp-content/themes/twentyeleven/images/about_imgs/bpedme_about_kalim.jpg" alt="bpeface">
 			</div>
 			<div class="person-prof">
 				<h3 class="person-name">Ibrahim Kalin<br />Senior Advisor to Prime Minister Receb Tayyip Erdogan</h3>
@@ -154,7 +112,7 @@
 		</div>
 		<div class="person">
 			<div class="person-pic">
-				<img src="../images/about_imgs/bpedme_about_010.jpg" alt="bpeface">
+				<img src="wp-content/themes/twentyeleven/images/about_imgs/bpedme_about_010.jpg" alt="bpeface">
 			</div>
 			<div class="person-prof">
 				<h3 class="person-name">Roy Mottahedeh<br />Professor of Islamic History,  Harvard</h3>
@@ -163,7 +121,7 @@
 		</div>
 		<div class="person">
 			<div class="person-pic">
-				<img src="../images/about_imgs/bpedme_about_011.jpg" alt="bpeface">
+				<img src="wp-content/themes/twentyeleven/images/about_imgs/bpedme_about_011.jpg" alt="bpeface">
 			</div>
 			<div class="person-prof">
 				<h3 class="person-name">Seyyed Hossein Nasr<br />University Professor of Islamic Studies,  George Washington University</h3>
@@ -172,7 +130,7 @@
 		</div>
 		<div class="person">
 			<div class="person-pic">
-				<img src="../images/about_imgs/bpedme_about_012.jpg" alt="bpeface">
+				<img src="wp-content/themes/twentyeleven/images/about_imgs/bpedme_about_012.jpg" alt="bpeface">
 			</div>
 			<div class="person-prof">
 				<h3 class="person-name">Vali R. Nasr<br />Professor of International Politics,  Tufts University</h3>
@@ -181,7 +139,7 @@
 		</div>
 		<div class="person">
 			<div class="person-pic">
-				<img src="../images/about_imgs/bpedme_about_price.jpg" alt="bpeface">
+				<img src="wp-content/themes/twentyeleven/images/about_imgs/bpedme_about_price.jpg" alt="bpeface">
 			</div>
 			<div class="person-prof">
 				<h3 class="person-name">Robert Price<br />Professor &amp; Associate Vice Chancellor of Research,  UC Berkeley</h3>
@@ -190,7 +148,7 @@
 		</div>
 		<div class="person">
 			<div class="person-pic">
-				<img src="../images/about_imgs/zohdi.jpg" alt="bpeface">
+				<img src="wp-content/themes/twentyeleven/images/about_imgs/zohdi.jpg" alt="bpeface">
 			</div>
 			<div class="person-prof">
 				<h3 class="person-name">Tarek Zohdi<br />Chair of Engineering Science,  UC Berkeley</h3>
@@ -199,87 +157,7 @@
 		</div>
 	</div>
 	</div>
-	<!-- ABOUT-CONTENT END -->
 </div>
-</div>
-<div class="divider"></div>
-<div class="wrapper" style="background-color: #f2f2f2;">
-<div class="container">
-	<!-- FOOTER START -->
-	<div id="share">
-		<div id="logomast" class="float-left">
-			<img src="../images/bpe-logo.png" alt="BPEDME LOGO" />
-		</div>
-		<div id="share-text" class="float-left">
-			<h3>Share BPEDME with your friends, colleagues &amp; network professionals.</h3>
-		</div>
-		<div id="share-box" class="float-left">
-			<span  class='st_email_vcount' displayText='Email'></span>
-			<span  class='st_twitter_vcount' displayText='Tweet'></span>
-			<span  class='st_facebook_vcount' displayText='Facebook'></span>
-			<span  class='st_linkedin_vcount' displayText='LinkedIn'></span>
-			<span  class='st_plusone_vcount' ></span>
-		</div>
-	</div>
-	<div id="footer-divider"></div>
-	<div id="site-map">
-		<nav class="footer">
-			<ul>
-				<li><a href="/about/#mission">Mission</a></li>
-				<li><a href="/about/#founders">About Us</a></li>
-				<li><a href="/research">"Research</a></li>
-				<li class="not-here">Blog</li>
-				<li class="not-here">Support Us</li>
-				<li id="footer-text">
-					(c)2012 Berkeley Program on Entrepreneurship &amp; Democracy in the Middle East
-				</li>
-			</ul>
-		</nav>
-	</div>
-	<!-- FOOTER END -->
-</div>
-</div>
-</body>
-	<!-- JAVASCRIPT INCLUDE -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script>
-		$(document).ready(function() {
-		
-		// Function appends + prepends non-breaking spaces to
-		// all .button element text so it looks pretty.
-			$('.button').each(function(index) {
-				var currText = $(this).text();
-				$(this).html("&nbsp; &nbsp; " + currText +  " &nbsp; &nbsp;");
-			}); 
-		});
-	</script>
-	
-	<!-- SHARE BUTTONS JS -->	
-	<script type="text/javascript">var switchTo5x=true;</script>
-	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-	<script type="text/javascript">
-		stLight.options({
-			publisher:'2aba839c-79a2-48fa-a9a5-31eb930dcc33',
-			serviceBarColor:'#ffc80d',
-			shareButtonColor:'#044689',
-			footerColor: 'white',
-			mainWidgetColor: '#ffc80d'
-		});
-	</script>
-	
-	<!-- GOOGLE ANALYTICS -->
-	<script type="text/javascript">
-	
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-9468150-3']);
-	  _gaq.push(['_trackPageview']);
-	
-	  (function() {
-	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
-	
-	</script>
-</html>
+</div>	
 
+<?php get_footer(); ?>

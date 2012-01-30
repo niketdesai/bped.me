@@ -14,39 +14,47 @@
 
 get_header(); ?>
 
-		<div id="primary">
-			<div id="content" role="main">
+	<div class="divider"></div>
+	<div class="wrapper force-four" style="background-color: #ffffff;">
+	<div class="container">
+		<!-- SECONDARY-CONTENT START -->
+		<div id="secondary-content">
+			<section class="buckets">
+				<h2 class="blue">WHO WE ARE</h2>
+				<div class="buckets-pic">
+					<img src="wp-content/themes/twentyeleven/images/bucket_imgs/bckt001.jpg" alt="bucket-images">
+				</div>
+				<div class="buckets-text">
+				<p>We're a group of passionate professionals and academics dedicated in growing the budding entrepreneurship community in the Middle East.</p>
+				</div>
+				<a href="/about/#founders"><div class="buckets-cta button b-blue cta">about us</div></a>
+			</section>
+			<section class="buckets">
+				<h2 class="yellow">GET INVOLVED</h2>
+				<div class="buckets-pic">
+					<img src="wp-content/themes/twentyeleven/images/bucket_imgs/bckt002.jpg" alt="bucket-images">
+				</div>
+				<div class="buckets-text">
+				<p>If you would like to submit research, speak at a BPEDME event, or network with our dedicated group please get involved with us!</p>
+				</div>
+					<div class="buckets-cta button b-yellow cta not-here">join us</div>
+			</section>
+			<section class="buckets">
+				<h2 class="grey">GET IN TOUCH</h2>
+				<div class="buckets-pic">
+					<img src="wp-content/themes/twentyeleven/images/bucket_imgs/bckt003.jpg" alt="bucket-images">
+				</div>
+				<div class="buckets-text">
+				<p>Want to learn more about BPEDME or get on the line with one of the founders? Drop us an email here and we'll be sure to respond as quickly as possible.</p>
+				</div>
+				<a href="mailto:mslh83@gmail.com?subject=Hi, tell me more about BPEDME">
+					<div class="buckets-cta button b-grey cta">contact us</div>
+				</a>
+			</section>
+		</div>
+		<!-- SECONDARY-CONTENT END -->
+	</div>
+	</div>
+	
 
-			<?php if ( have_posts() ) : ?>
-
-				<?php twentyeleven_content_nav( 'nav-above' ); ?>
-
-				<?php /* Start the Loop */ ?>
-				<?php while ( have_posts() ) : the_post(); ?>
-
-					<?php get_template_part( 'content', get_post_format() ); ?>
-
-				<?php endwhile; ?>
-
-				<?php twentyeleven_content_nav( 'nav-below' ); ?>
-
-			<?php else : ?>
-
-				<article id="post-0" class="post no-results not-found">
-					<header class="entry-header">
-						<h1 class="entry-title"><?php _e( 'Nothing Found', 'twentyeleven' ); ?></h1>
-					</header><!-- .entry-header -->
-
-					<div class="entry-content">
-						<p><?php _e( 'Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post.', 'twentyeleven' ); ?></p>
-						<?php get_search_form(); ?>
-					</div><!-- .entry-content -->
-				</article><!-- #post-0 -->
-
-			<?php endif; ?>
-
-			</div><!-- #content -->
-		</div><!-- #primary -->
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
