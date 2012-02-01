@@ -83,7 +83,7 @@ Template Name: About-Us
 		</div>
 		<div class="person">
 			<div class="person-pic">
-				<img src="wp-content/themes/twentyelevens/images/about_imgs/bpedme_about_006.jpg" alt="bpeface">
+				<img src="wp-content/themes/twentyeleven/images/about_imgs/bpedme_about_006.jpg" alt="bpeface">
 			</div>
 			<div class="person-prof">
 				<h3 class="person-name">M. Steven Fish<br />Political Scientist</h3>

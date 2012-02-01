@@ -50,15 +50,30 @@
 </body>
 	<!-- JAVASCRIPT INCLUDE -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="wp-content/themes/twentyeleven/js/jquery.expander.min.js"></script>
 	<script>
 		$(document).ready(function() {
 		
-		// Function appends + prepends non-breaking spaces to
-		// all .button element text so it looks pretty.
+		  // Function appends + prepends non-breaking spaces to
+		  // all .button element text so it looks pretty.
 			$('.button').each(function(index) {
 				var currText = $(this).text();
 				$(this).html("&nbsp; &nbsp; " + currText +  " &nbsp; &nbsp;");
 			}); 
+		  // This function shortens the text on the about page (read more/less).
+			$('p.person-bio').expander({
+			    slicePoint:       300,  // default is 100
+			    expandPrefix:     ' ', // default is '... '
+			    expandText:       'read more', // default is 'read more'
+			    collapseTimer:    0, // re-collapses after 5 seconds; default is 0, so no re-collapsing
+			    userCollapseText: 'read less'  // default is 'read less'
+			});
+			// This function allows smooth scrolling to anchor tags with class "scroll"
+			$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+			});  
+			
 		});
 	</script>
 	

@@ -2674,7 +2674,7 @@ nav.about ul li a {
 
 h1.about-header {
 	color: #044689;
-	padding-top: 20px;
+	padding: 20px 0;
 }
 
 #mission-content p {
@@ -2686,7 +2686,7 @@ h1.about-header {
 .person {
 	overflow: hidden;
 	margin: auto;
-	padding-bottom: 20px;
+	padding: 20px 0;
 	
 }
 
@@ -2707,6 +2707,7 @@ h1.about-header {
 .person-prof h3 {
 	margin-top: 5px;
 	color: #4b4b4b;
+	padding: 10px 0;
 }
 
 .person-bio {
@@ -2725,11 +2726,12 @@ p.person-bio {
 #research-content {
 	width: 960px;
 	margin: 0 auto;
-	padding: 20px 0;
+	padding: 20px 0 40px 0;
 }
 
 #research-content h2 {
 	color: #044689 ;
+  padding: 30px 0 10px 0;
 }
 
 #research-content h3 {
@@ -2737,6 +2739,7 @@ p.person-bio {
 	color: #4b4b4b;
 	line-height: 28px;
 	font-style: italic;
+	padding-top: 10px;
 }
 
 #research-content p, #research-content ol, #research-content ul {
@@ -2745,7 +2748,10 @@ p.person-bio {
 	line-height: 26px;
 }
 
-
+#research-content li {
+  list-style: circle;
+  margin-left: 40px;
+}
 
 
 /* @group FOOTER */
@@ -2779,7 +2785,7 @@ nav.footer {
 }
 nav.footer ul {
 	float: left;
-	margin: 30px 0px 30px 85px;
+	margin: 30px 0px 30px 100px;
 }
 
 nav.footer ul li {
@@ -2792,7 +2798,7 @@ nav.footer ul li {
 }
 
 #footer-text {
-	margin-left: 285px;
+	margin-left: 275px;
 }
 
 /* @end */
